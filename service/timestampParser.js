@@ -3,7 +3,6 @@
  */
 var moment = require('moment');
 var DATE_FORMAT = "MMMM D, YYYY";
-var NUM_OF_MILLISEC_IN_A_SECOND = 1000;
 
 // From https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/parseInt
 function filterInt(value) {
