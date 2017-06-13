@@ -5,7 +5,9 @@ var timestampParser = require("../service/timestampParser");
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', {});
+    res.render('index', {
+        "serverHostName": req.headers.host
+    });
 });
 
 router.get('/:timestamp', function (req, res) {
